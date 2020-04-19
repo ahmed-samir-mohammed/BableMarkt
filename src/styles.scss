@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+
+html {
+    direction: rtl;
+}
+body {
+    background-image: url('./assets/img/back.png');
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    font-family: 'Cairo', sans-serif;
+}
+
+// Login Page
+@import './assets/scss/Login';
+
+// Forget Password
+@import './assets/scss/ForgetPassword';
+
+
+// Confirm
+@import './assets/scss/Confirm';
+
+
+@import './assets/scss/Media';
+

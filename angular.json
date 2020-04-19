@@ -28,9 +28,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/mdbootstrap/css/bootstrap.min.css",
+              "./node_modules/mdbootstrap/css/mdb.min.css",
+              "./node_modules/mdbootstrap/css/style.css",
+              "./src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/mdbootstrap/js/jquery.min.js",
+              "./node_modules/mdbootstrap/js/bootstrap.min.js",
+              "./node_modules/mdbootstrap/js/mdb.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +130,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Partner-Dashboard"
+    }
+  },
+  "defaultProject": "Partner-Dashboard",
+  "cli": {
+    "analytics": "be7f5418-46a1-4731-8976-72d0e5a72db4"
+  }
 }

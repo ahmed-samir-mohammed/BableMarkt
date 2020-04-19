@@ -1,0 +1,19 @@
+.send-again {
+    display: flex;
+    margin-bottom: 1rem;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    p {
+        margin-bottom: 1rem !important;
+        font-weight: 700;
+    }
+    .forget-btn {
+        background: none;
+        border: 0;
+        transition: all .3s ease-in-out;
+        &:hover {
+            color: #FF8A05;
+        }
+    }
+}
