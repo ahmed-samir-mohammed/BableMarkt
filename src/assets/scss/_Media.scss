@@ -32,6 +32,20 @@
             }
         } 
     }
+    footer {
+        .impotant-link, .download {
+            margin-top: 2rem;
+        }
+        .download {
+            .download-btns {
+                margin-top: 1rem;
+                flex-direction: row;
+                button {
+                    margin: 1rem;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -60,6 +74,26 @@
             }
         } 
     }
+    .dashboard {
+        .top {
+            .col-md-6 {
+                h1 {
+                    margin-bottom: 2rem;
+                }
+                .top_left {
+                    align-items: center;
+                }
+            }
+            &::after { display: none; }
+        }
+        .money, .point, .group {
+            .icon {
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+    }
+    
 }
 
 @media (max-width: 676px) {
@@ -68,6 +102,7 @@
             justify-content: center;
             .form {
                 width: 90%;
+
             }
         } 
     }

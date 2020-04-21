@@ -1,0 +1,24 @@
+%_Regtangel {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px #00000012;
+    border: 0;
+    border-radius: 15px;
+    position: relative;
+    padding: 2rem 0;
+    margin-bottom: 3rem;
+}
+
+%_Icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -1rem;
+    right: 1.5rem;
+    img {
+        width: 50%;
+    }
+}
