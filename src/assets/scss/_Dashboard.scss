@@ -21,14 +21,19 @@
 }
 
 .dashboard {
-    padding-top: 10rem;
+    padding-top: 7rem;
+    h1 {
+        text-align: right;
+        margin: 2rem 0 3rem;
+        font-weight: 600;
+    }
     .top {
         @extend %_Regtangel;
         .col-md-6 {
             display: flex;
             align-items: center;
             justify-content: center;
-            h1 {
+            h3 {
                 font-weight: 600;
             }
             .top_left {
@@ -216,6 +221,7 @@ footer {
                 background-color: #fff;
                 border: 0;
                 border-radius: 10px;
+                color: black;
                 padding: .5rem 1rem; 
                 margin-bottom: 1rem;
                 i {

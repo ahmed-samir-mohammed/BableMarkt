@@ -40,7 +40,7 @@
             .download-btns {
                 margin-top: 1rem;
                 flex-direction: row;
-                button {
+                a {
                     margin: 1rem;
                 }
             }
@@ -75,9 +75,12 @@
         } 
     }
     .dashboard {
+        h1 {
+            font-size: 2rem;
+        }
         .top {
             .col-md-6 {
-                h1 {
+                h3 {
                     margin-bottom: 2rem;
                 }
                 .top_left {
